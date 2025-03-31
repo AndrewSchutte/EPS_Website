@@ -257,7 +257,7 @@ html {
     font-weight: 50;
 }
 
-.l1 {
+/* .l1 {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -268,11 +268,11 @@ html {
     border-bottom-style: solid;
     border-width: 8px;
     border-color: #4D42B3;
-}
+} */
 
-.l1 li {
+/* .l1 li {
     float: left;
-}
+} */
 
 /* li button,
 .dropbtn1 {

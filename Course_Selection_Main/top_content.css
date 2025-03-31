@@ -41,11 +41,8 @@ html {
     padding: 0;
     overflow: hidden;
     background-color: #40263b;
-    height: 90px;
+    height: 60px;
     width: 100%;
-    border-bottom-style: solid;
-    border-width: 8px;
-    border-color: #4D42B3;
 }
 
 .l1 li {
@@ -59,7 +56,7 @@ li button,
     display: inline-block;
     color: white;
     text-align: center;
-    font-size: 20px;
+    font-size: 16px;
     text-decoration: none;
     cursor: pointer;
     background-color: #40263b;

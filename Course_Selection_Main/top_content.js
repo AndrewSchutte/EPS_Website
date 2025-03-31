@@ -1,13 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     document.body.insertAdjacentHTML("afterbegin", `
-        <div class="hero-image">
-            <div class="hero-text">
-                <p class="p1"> Elgin Park Secondary </p>
-                <p class="p2"> 2025-2026 Course Information </p>
-            </div>
-        </div>
         <ul class="l1">
-            <a href="home.html"><img src="./elgin_logo.png" id="img1" /></a>
+            <a href="home.html"><img src="./elgin_logo.png" id="img1" style="width:114px;height:60px;"></a>
             <div class="NavItem">
                 <li><button onclick="location.href='home.html'">Home</button></li>
                 <li class="dropdown">
