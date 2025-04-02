@@ -11,23 +11,50 @@
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
     <title>Elgin Park Secondary</title>
+    <!-- FullCalendar CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.css" rel="stylesheet">
+    <style>
+        #calendar-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        #calendar {
+            width: 100%;
+            min-height: 600px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        
+        @media (max-width: 768px) {
+            #calendar {
+                min-height: 400px;
+                padding: 10px;
+            }
+        }
+    </style>
 </head>
 
 <body>
     <script src="top_content.js"></script> <!-- Link to the external JavaScript file -->
     <!-- Main Content -->
     <div class="main-content">
-      <h1>School Calendar</h1>
-      <div id="calendar-container">
-        <div id="calendar"></div>
-      </div>
+        <h1>School Calendar</h1>
+        <div id="calendar-container">
+            <div id="calendar"></div>
+        </div>
     </div>
 
     <!-- Footer -->
     <footer>
-      <p>The students and staff at Elgin Park Secondary work, learn, and play on the unceded and ancestral territories of the Katzie, Semiahmoo, Kwantlen and other Coast Salish Peoples.</p>
+        <p>The students and staff at Elgin Park Secondary work, learn, and play on the unceded and ancestral territories of the Katzie, Semiahmoo, Kwantlen and other Coast Salish Peoples.</p>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/locales-all.min.js"></script>
     <script src="cal.js"></script>
-  </body>
+</body>
 </html>
