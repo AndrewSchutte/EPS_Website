@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     document.body.insertAdjacentHTML("afterbegin", `
         <ul class="l1">
-            <a href="home.html"><img src="./elgin_logo.png" id="img1" style="width:114px;height:60px;"></a>
+            <a href="home.html"><img src="./elgin_logo.png" id="img1"></a>
             <div class="NavItem">
                 <li><button onclick="location.href='home.html'">Home</button></li>
                 <li class="dropdown">

@@ -26,14 +26,6 @@ html {
     color: white;
 }
 
-.p1 {
-    font-size: 50px;
-}
-
-.p2 {
-    font-size: 30px;
-}
-
 /* Navigation Bar */
 .l1 {
     list-style-type: none;
@@ -121,9 +113,7 @@ li.dropdown {
 
 /* Header Images */
 #img1 {
-    padding-top: 12px;
-    padding-left: 12px;
-    height: 65px;
-    width: 135px;
+    height:60px;
+    width:114px;
     position: absolute;
 }

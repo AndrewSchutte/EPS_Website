@@ -93,15 +93,6 @@ html {
   display: block;
 }
 
-/* Logo styles from home page */
-#img1 {
-  width: 75px;
-  height: 75px;
-  cursor: pointer;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
 /* Remove the previous logo styling */
 .logo, .logo-container {
   display: none;

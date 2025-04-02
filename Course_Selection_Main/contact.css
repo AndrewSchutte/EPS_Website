@@ -32,13 +32,6 @@ html {
     font-size: 30px;
 }
 
-#img1 {
-    padding-top: 12px;
-    padding-left: 12px;
-    height: 65px;
-    width: 135px;
-    position: absolute;
-}
 
 #img2 {
     padding-top: 12px;
@@ -169,7 +162,7 @@ html {
     font-weight: 50;
 }
 
-.l1 {
+/* .l1 {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -184,7 +177,7 @@ html {
 
 .l1 li {
     float: left;
-}
+} */
 
 /* li button,
 .dropbtn1 {
